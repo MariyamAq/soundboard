@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern SoundBoard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎵 SoundBoard</h1>
+
+<p class="subtitle">
+Click any sound to play it
+</p>
+
+<div class="controls">
+
+<label>
+
+🔊 Volume
+
+<input
+type="range"
+id="volumeSlider"
+min="0"
+max="100"
+value="70">
+
+</label>
+
+<button id="stopAll">
+⏹ Stop All
+</button>
+
+</div>
+
+<div id="soundGrid" class="grid">
+
+<button class="sound-btn" data-sound="1">🎹 Piano</button>
+
+<button class="sound-btn" data-sound="2">🥁 Drum</button>
+
+<button class="sound-btn" data-sound="3">🎸 Guitar</button>
+
+<button class="sound-btn" data-sound="4">🎺 Trumpet</button>
+
+<button class="sound-btn" data-sound="5">🎻 Violin</button>
+
+<button class="sound-btn" data-sound="6">🔔 Bell</button>
+
+<button class="sound-btn" data-sound="7">👏 Clap</button>
+
+<button class="sound-btn" data-sound="8">😂 Laugh</button>
+
+<button class="sound-btn" data-sound="9">🌧 Rain</button>
+
+<button class="sound-btn" data-sound="10">⚡ Thunder</button>
+
+<button class="sound-btn" data-sound="11">🐦 Birds</button>
+
+<button class="sound-btn" data-sound="12">🎼 Keyboard</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
