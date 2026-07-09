@@ -1,7 +1,7 @@
 const soundFiles = [
 "sounds/mixkit-tick-tock-clock-timer-1045.wav",
 "sounds/mixkit-keyboard-typing-1386.wav",
-"sounds/mixkit-air-whoosh-1489.wav",
+"sounds/mixkit-air-woosh-1489.wav",
 "sounds/mixkit-cartoon-toy-whistle-616.wav",
 "sounds/mixkit-small-group-cheer-and-applause-518.wav",
 "sounds/mixkit-retro-game-emergency-alarm-1000.wav",
